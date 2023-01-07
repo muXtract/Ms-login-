@@ -1,0 +1,91 @@
+/* .container{
+    display: inline-block;
+    position: relative;
+    top: 100px;
+    left: 300px;
+    height: 500px;
+    width: 1000px;
+    border: 5px solid black; 
+} */
+
+
+body{
+    background: rgb(249,169,140);
+background: linear-gradient(112deg, rgba(249,169,140,1) 0%, rgba(213,234,234,1) 52%, rgba(234,231,213,1) 99%);
+}
+
+.body1 {
+    
+    display: flex;
+    background-color: white;
+    position: absolute;
+    left: 550px;
+    top: 119px;
+    height: 300px;
+    width: 400px;
+}
+
+.signup{
+    border: 2px ;
+    padding-top: 10px;
+    width: 500px;
+}
+.key
+{
+    border: 2px; 
+    padding-top: 10px;
+}
+#btn{
+    background-color:rgb(38, 103, 224);
+    color: white;
+    position: relative;
+    top: 40px;
+    left: 230px;
+    cursor: pointer;
+    width: 80px;
+}
+.body2{
+    display: inline-block;
+    position:absolute;
+    top: 450px ;
+    left:550px;
+    height: 50px;
+    background-color: white;
+    
+    width: 400px;
+    border: 2px ;
+}
+.options{
+    display: inline-block;
+    position:absolute;
+    top: 10px;
+    left: 50px;
+    font-size: large;
+
+}
+i{
+    position: absolute;
+    top: 13px;
+    left: 10px;
+}
+input[type="email" i] {
+    outline:none;
+width: 220px;
+height: 30px;
+font-size: 14px;
+border:none;
+border-bottom: 2px solid black;
+width: 310px;
+
+}
+.outline{
+    position: relative;
+    left: 40px;
+    top: 20px;
+}
+.align{
+    position: relative;
+    display:block;
+    left: 20px;
+    top: 4px;
+}
