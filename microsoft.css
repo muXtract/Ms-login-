@@ -3,6 +3,7 @@ body{
 background: linear-gradient(112deg, rgba(249,169,140,1) 0%, rgba(213,234,234,1) 52%, rgba(234,231,213,1) 99%);
 }
 
+//adding css to the first box for alignment 
 .body1 {
     
     display: flex;
@@ -14,16 +15,21 @@ background: linear-gradient(112deg, rgba(249,169,140,1) 0%, rgba(213,234,234,1) 
     width: 400px;
 }
 
+//aligning the "Create One" hyperlink
 .signup{
     border: 2px ;
     padding-top: 10px;
     width: 500px;
 }
+
+//for the "sign in with a security key " hyperlink
 .key
 {
     border: 2px; 
     padding-top: 10px;
 }
+
+//styling a blue button 
 #btn{
     background-color:rgb(38, 103, 224);
     color: white;
@@ -33,6 +39,7 @@ background: linear-gradient(112deg, rgba(249,169,140,1) 0%, rgba(213,234,234,1) 
     cursor: pointer;
     width: 80px;
 }
+//positioning the 2nd box 
 .body2{
     display: inline-block;
     position:absolute;
@@ -44,6 +51,8 @@ background: linear-gradient(112deg, rgba(249,169,140,1) 0%, rgba(213,234,234,1) 
     width: 400px;
     border: 2px ;
 }
+
+//aligning the text inside box 2
 .options{
     display: inline-block;
     position:absolute;
@@ -52,11 +61,15 @@ background: linear-gradient(112deg, rgba(249,169,140,1) 0%, rgba(213,234,234,1) 
     font-size: large;
 
 }
+
+//positioning the key icon 
 i{
     position: absolute;
     top: 13px;
     left: 10px;
 }
+
+// making an input space  
 input[type="email" i] {
     outline:none;
 width: 220px;
@@ -66,10 +79,13 @@ border:none;
 border-bottom: 2px solid black;
 width: 310px;
 
+    
 }
+//adding space to the content in box1 
 .outline{
        padding: 30px 0px 0px 50px;
 }
+//positioning content in box2
 .align{
     position: relative;
     display:block;
